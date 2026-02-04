@@ -150,7 +150,7 @@ export default function AboutPage() {
                 <div className="container mx-auto px-6">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {[
-                            { title: "Based in", value: "Coimbatore", icon: <Target className="w-6 h-6 text-red-500" />, desc: "Heart of Innovation" },
+                            { title: "Based in", value: "Bangalore", icon: <Target className="w-6 h-6 text-red-500" />, desc: "Heart of Innovation" },
                             { title: "Curriculum", value: "NEP 2020 Aligned", icon: <CheckCircle2 className="w-6 h-6 text-green-500" />, desc: "Future-Ready" },
                             { title: "Focus on", value: "Real Outcomes", icon: <Trophy className="w-6 h-6 text-yellow-500" />, desc: "Career Growth" },
                         ].map((stat, idx) => (
