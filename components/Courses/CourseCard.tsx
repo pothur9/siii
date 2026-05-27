@@ -52,9 +52,13 @@ export default function CourseCard({ course }: CourseProps) {
                     <span className="text-xs text-gray-400 line-through font-normal">{course.originalPrice}</span>
                 </div>
 
-                {/* Logo Overlay Placeholder - assuming CodeEmy logo or similar */}
-                <div className="absolute top-4 left-4 w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-lg">
-                    <span className="font-bold text-xs">SI</span>
+                {/* Mode Tag: Offline & Online */}
+                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-md border border-white/20 text-gray-800 font-semibold py-1.5 px-3 rounded-full text-[11px] shadow-lg flex items-center gap-1.5 transition-all duration-300">
+                    <span className="relative flex h-2 w-2">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    <span className="tracking-wide">Offline & Online</span>
                 </div>
             </div>
 
