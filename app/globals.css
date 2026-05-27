@@ -17,6 +17,24 @@
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
   --font-sans: var(--font-inter);
+  
+  --animate-scroll-left: scroll-left 25s linear infinite;
+  --animate-gradient-bg: gradient-bg 8s linear infinite;
+
+  @keyframes scroll-left {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes gradient-bg {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
 }
 
 body {
