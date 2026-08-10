@@ -13,6 +13,7 @@ import AdvancedPrograms from "@/components/AdvancedPrograms";
 export default function Home() {
   return (
     <main className="min-h-screen">
+      {/*
       <Hero />
       <StatsMarquee />
       <Features />
@@ -23,6 +24,9 @@ export default function Home() {
       <AdvancedPrograms />
       <Testimonials />
       <Contact />
+      */}
+
+      <h1>404</h1>
     </main>
   );
 }
