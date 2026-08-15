@@ -14,16 +14,17 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       
-      <Hero />
-      <StatsMarquee />
-      <Features />
-      <UnlockPotential />
-      <Courses />
-      <GrowthJourney />
-      <TransformCareer />
-      <AdvancedPrograms />
-      <Testimonials />
-      <Contact />
+      {/* <Hero /> */}
+      {/* <StatsMarquee /> */}
+      {/* <Features /> */}
+      {/* <UnlockPotential /> */}
+      {/* <Courses /> */}
+      {/* <GrowthJourney /> */}
+      {/* <TransformCareer /> */}
+      {/* <AdvancedPrograms /> */}
+      {/* <Testimonials /> */}
+      {/* <Contact /> */}
+      
       
      
     </main>
