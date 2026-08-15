@@ -30,7 +30,7 @@ export default function RootLayout({
       >
       {/* <Navbar /> */}
 
-  <p>404</p>
+
 
   {/* {children} */}
 
