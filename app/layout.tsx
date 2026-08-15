@@ -28,9 +28,13 @@ export default function RootLayout({
         className={`${inter.variable} antialiased`}
         suppressHydrationWarning
       >
-       <Navbar /> 
-        {children}
-         <Footer /> 
+      {/* <Navbar /> */}
+
+  <p>404</p>
+
+  {/* {children} */}
+
+  {/* <Footer /> */}
       </body>
     </html>
   );
